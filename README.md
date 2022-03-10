@@ -35,4 +35,5 @@ $ php artisan serve
 
 - If you run this with artisan , then access `http://localhost:8000` to start acessing the page
 - If you run this without artisan , then access `http://localhost/<project-directory>/public` to start acessing the page
+- Laravel + InertiaJS version access `http://localhost/<project-directory>/public/buku-tamu`
 

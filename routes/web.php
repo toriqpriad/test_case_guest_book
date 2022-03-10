@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GuestbookController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\BukutamuController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,5 @@ Route::get('/', [FrontController::class, 'index'])->name('front');
 Route::post('/submit', [FrontController::class, 'submit'])->name('submit_guest_book');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::resource('guest-book', GuestbookController::class);
+
+Route::resource('buku-tamu', BukutamuController::class);
